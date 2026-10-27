@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "cairopulse",
+            "database": "cairopulse",
+            "username": "cairopulse_user",
+            "password": "change_this_to_a_strong_password"
+        }
+    ]
+}

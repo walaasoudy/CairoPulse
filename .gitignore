@@ -1,0 +1,17 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Local tooling
+.DS_Store
+*.log
+
+# Prisma local database (PostgreSQL runs in Docker)
+backend/prisma/*.db
+backend/prisma/*.db-journal
